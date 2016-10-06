@@ -1,0 +1,29 @@
+{
+  "name": "orden",
+  "plural": "ordenes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "cliente": {
+      "type": "any",
+      "required": true
+    },
+    "numeroOrden": {
+      "type": "number",
+      "required": true,
+      "default": -1
+    },
+    "Cantidad": {
+      "type": "number",
+      "required": true,
+      "default": -1
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

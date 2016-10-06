@@ -1,0 +1,7 @@
+{
+  "soa": {
+    "url": "mongodb://movejasmith:f4l4c145@ds051933.mlab.com:51933/soa",
+    "name": "soa",
+    "connector": "mongodb"
+  }
+}
